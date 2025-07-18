@@ -12,6 +12,8 @@ Tomado de la **[plantilla del desafío](https://trello.com/b/9DeAlIsq/foro-hub-c
 ## Estado del desafío
 :white_check_mark: **2025-07-18**: *Crear el repositorio del proyecto en GitHub.*
 
+:white_check_mark: **2025-07-18**: Configurando el entorno Java y Spring, creción del proyecto y sus dependencias con [Spring Initializr](https://start.spring.io).*
+
 :cherries: **{Siguiente fecha}**: *{Contenido}*
 
 ## Funcionalidades
