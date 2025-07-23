@@ -14,6 +14,10 @@ Tomado de la **[plantilla del desafío](https://trello.com/b/9DeAlIsq/foro-hub-c
 
 :white_check_mark: **2025-07-18**: Configurando el entorno Java y Spring, creción del proyecto y sus dependencias con [Spring Initializr](https://start.spring.io).*
 
+:white_check_mark: **2025-07-21**: Analizando el diagrama de la base de datos, (entidades, relaciones y atributos).*
+
+:white_check_mark: **2025-07-21**: Construcción de la base de datos, configuración de MySQL, configuración del proyecto y migraciones para el proyecto.*
+
 :cherries: **{Siguiente fecha}**: *{Contenido}*
 
 ## Funcionalidades
