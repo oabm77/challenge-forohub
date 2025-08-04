@@ -4,8 +4,8 @@ create table respuesta(
     topico bigint not null,
     fecha_creacion datetime not null,
     autor bigint not null,
-    solucion varchar(100),
+    solucion tinyint not null default 0,
     primary key(id),
-    foreign key (topico) references topico(id) on delete cascade,
-    foreign key (autor) references usuario(id) on delete cascade
+    constraint fk_respuesta_topico_id foreign key (topico) references topico(id),
+    constraint fk_respuesta_usuario_id foreign key (autor) references usuario(id)
 );

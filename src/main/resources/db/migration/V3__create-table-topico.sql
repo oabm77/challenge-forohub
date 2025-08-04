@@ -6,7 +6,8 @@ create table topico(
     status varchar(100) not null,
     autor bigint not null,
     curso bigint not null,
+    respuestas int not null default 0,
     primary key(id),
-    foreign key (autor) references usuario(id) on delete cascade,
-    foreign key (curso) references curso(id) on delete cascade
+    constraint fk_topico_usuario_id foreign key (autor) references usuario(id),
+    constraint fk_topico_curso_id foreign key (curso) references curso(id)
 );

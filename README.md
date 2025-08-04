@@ -18,6 +18,8 @@ Tomado de la **[plantilla del desafío](https://trello.com/b/9DeAlIsq/foro-hub-c
 
 :white_check_mark: **2025-07-21**: Construcción de la base de datos, configuración de MySQL, configuración del proyecto y migraciones para el proyecto.*
 
+:white_check_mark: **2025-08-04**: Se crean los db.migration para las tablas que se crearán en la base de datos(curso, usuario, topico y respuesta). Se crea la clase Curso, con sus respectivos DTOs para registro, actualización, detalle y listado, el repositorio para las consultas en la base de datos.*
+
 :cherries: **{Siguiente fecha}**: *{Contenido}*
 
 ## Funcionalidades

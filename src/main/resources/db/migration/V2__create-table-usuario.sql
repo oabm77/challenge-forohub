@@ -3,5 +3,6 @@ create table usuario(
     nombre varchar(100) not null,
     correo varchar(100) not null,
     contrasena varchar(100) not null,
+    perfil varchar(100) not null,
     primary key(id)
 );
