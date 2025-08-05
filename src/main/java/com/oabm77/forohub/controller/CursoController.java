@@ -47,10 +47,16 @@ public class CursoController {
 
     @Transactional
     @DeleteMapping("/{id}")
-    public ResponseEntity eliminar(@PathVariable Long id) {
+    public ResponseEntity eliminar(@PathVariable("id") Long id) {
         var curso = repository.getReferenceById(id);
         curso.desactivar();
         
         return  ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity detallar(@PathVariable("id") Long id) {
+        var curso = repository.getReferenceById(id);
+        return ResponseEntity.ok(new DatosDetalleCurso(curso));
     }
 }

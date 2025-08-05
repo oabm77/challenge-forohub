@@ -20,6 +20,8 @@ Tomado de la **[plantilla del desafío](https://trello.com/b/9DeAlIsq/foro-hub-c
 
 :white_check_mark: **2025-08-04**: Se crean los db.migration para las tablas que se crearán en la base de datos(curso, usuario, topico y respuesta). Se crea la clase Curso, con sus respectivos DTOs para registro, actualización, detalle y listado, el repositorio para las consultas en la base de datos.*
 
+:white_check_mark: **2025-08-04**: Se crea la clase Usuario, se implmentan los UserDetails de Spring para un inicio de sesión. SE agrega el controlador de autenticación con el uso de un AuthenticationManager. Finalmente, se incluye la clase para gestionar adecuadamente los errores.*
+
 :cherries: **{Siguiente fecha}**: *{Contenido}*
 
 ## Funcionalidades

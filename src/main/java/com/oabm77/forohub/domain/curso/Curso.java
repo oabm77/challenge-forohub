@@ -25,6 +25,7 @@ public class Curso {
     public Curso(DatosRegistroCurso datos) {
         this.titulo = datos.titulo();
         this.categoria = datos.categoria();
+        this.activo = true;
     }
 
     public void actualizarInformacion(@Valid DatosActualizacionCurso datos) {
