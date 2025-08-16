@@ -22,7 +22,7 @@ Tomado de la **[plantilla del desafío](https://trello.com/b/9DeAlIsq/foro-hub-c
 
 :white_check_mark: **2025-08-04**: Se crea la clase Usuario, se implmentan los UserDetails de Spring para un inicio de sesión. SE agrega el controlador de autenticación con el uso de un AuthenticationManager. Finalmente, se incluye la clase para gestionar adecuadamente los errores.*
 
-:cherries: **{Siguiente fecha}**: *{Contenido}*
+:cherries: **2025-08-16**: *Se agregan las acciones de registro y listado de tópicos mediante el uso de los métodos POST y GET.*
 
 ## Funcionalidades
 * **API con rutas implementadas siguiendo las mejores prácticas del modelo REST.**<br>Estas rutas permitirán:
@@ -36,7 +36,7 @@ Tomado de la **[plantilla del desafío](https://trello.com/b/9DeAlIsq/foro-hub-c
 * **Servicio de autenticación/autorización para restringir el acceso a la información.**
 
 ## Vista previa
-<img src="#" width="400"><br>
+<img src="https://live.staticflickr.com/65535/54723990358_155d8aaf78_b.jpg" width="400"><br>
 
 ## Acceso al proyecto
 Puedes descargarlo **[AQUI](https://github.com/oabm77/challenge-forohub/archive/refs/heads/master.zip)**
